@@ -1,4 +1,5 @@
 /**index.wxss**/
+
 .frame_view{
   bottom: 160rpx;
   left: 60rpx;
@@ -26,3 +27,11 @@
   width:180rpx;
   height:180rpx;
 }
+.background {
+    width: 100%;
+    height: 100%;
+    position:fixed; 
+    top: 0;
+    background-size:100% 100%;
+    z-index: -1;
+  }

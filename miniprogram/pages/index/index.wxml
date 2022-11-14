@@ -1,6 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-  <view class='frame_view'>
+<image class="background" src= "/images/background.jpg" >
+</image>
+<view class='frame_view'>
 <view class='frame_row'>
 <image class='frame_item' style='opacity:{{color[0]}}' src='{{images[0]}}'></image>
 <image class='frame_item' style='opacity:{{color[1]}}' src='{{images[1]}}'></image>
